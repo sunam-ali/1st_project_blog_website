@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunam's Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header start here  -->
+    <header id="blog-header">
+        <figure>
+            <img class="logo" src="images/sunam_logo.png" alt="logo">
+        </figure>
+        <i class="fas fa-bars fa-4x" id="menu_icon"></i>
+        <nav id="menu" class="hidden">
+            <ul>
+                <li><a href="index.html" class="nav__link">Home</a></li>
+                <li><a href="#blog-about" class="nav__link">About</a></li>
+                <li><a href="#archieve" class="nav__link">Archieves</a></li>
+                <li><a href="#blog-posts" class="nav__link">Blog Posts</a></li>
+                <li><a href="contact.html" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header end here  -->
+    <main>
+        <!-- blog banner section start  -->
+        <div id="blog-banner-section" class="banner">
+            <article>
+                <h1 class="banner__heading">Web Development</h1>
+                <p class="banner__description text-justify">
+                Web development involves creating websites and web applications, using coding languages like HTML, CSS, JavaScript, and backend technologies.
+                </p>
+            </article>
+            <aside>
+                <img class="banner__img" src="images/cover.jpg" alt="cover photo">
+            </aside>
+        </div>
+        <!-- blog banner section end  -->
+
+        <!-- about me section start here  -->
+        <section id="blog-about" class="section-center">
+            <h2 class="section-heading">About Me</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3 class="card__header">Education</h3>
+                    <p class="card__description text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor magnam architecto mollitia expedita ipsum consectetur modi, nemo sapiente iusto repellendus!</p>
+                    <button class="btn card__btn">Read More</button>
+                </div>
+                 <div class="card">
+                    <h3 class="card__header">Skills</h3>
+                    <p class="card__description text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor magnam architecto mollitia expedita ipsum consectetur modi, nemo sapiente iusto repellendus!</p>
+                    <button class="btn card__btn">Read More</button>
+                </div>
+                <div class="card">
+                    <h3 class="card__header">Others</h3>
+                    <p class="card__description text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor magnam architecto mollitia expedita ipsum consectetur modi, nemo sapiente iusto repellendus!</p>
+                    <button class="btn card__btn">Read More</button>
+                </div>
+            </div>
+        </section>
+        <!-- about me section end here  -->
+
+        <!-- Archieves section start here  -->
+        <section id="archieve" class="section-center">
+             <h2 class="section-heading">Archieves</h2>  
+             <div class="archieves-container">
+                <ul class="archieves__lists">
+                    <li class="archieves__list"><img class="archieves__img" src="images/img-1.jpg" alt="imageone"></li>
+                    <li class="archieves__list"><img class="archieves__img" src="images/img-2.jpg" alt="imageone"></li>
+                    <li class="archieves__list"><img class="archieves__img" src="images/img-3.jpg" alt="imageone"></li>
+                    <li class="archieves__list"><img class="archieves__img" src="images/img-1.jpg" alt="imageone"></li>
+                </ul>
+             </div>             
+        </section>
+        <!-- Archieves section end here  -->
+
+        <!-- blog post section start here  -->
+        <section id="blog-posts" class="section-center">
+            <h2 class="section-heading">Blog Posts</h2>
+            <div class="blog-posts section-center">
+                <div class="blog-post">
+                    <aside class="blog-post__aside">
+                        <img src="images/img-2.jpg" alt="blog-image-2">
+                    </aside>
+                    <article class="blog-post__content">
+                        <h2 class="blog-post__heading">Blog 1</h2>
+                        <h3 class="blog-post__sub-heading">This is subtitle here</h3>
+                        <p class="blog-post__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero facilis distinctio a? Iste placeat voluptatum optio minus vero totam earum, facere porro tempore dolores asperiores vel nostrum, ipsam qui repellat!</p>
+                        <button class="btn blog-post__button">Learn More</button>
+                    </article>
+                </div>
+                <div class="blog-post">
+                    <aside class="blog-post__aside">
+                        <img src="images/img-3.jpg" alt="blog-image-2">
+                    </aside>
+                    <article class="blog-post__content">
+                        <h2 class="blog-post__heading">Blog 2</h2>
+                        <h3 class="blog-post__sub-heading">This is subtitle here</h3>
+                        <p class="blog-post__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero facilis distinctio a? Iste placeat voluptatum optio minus vero totam earum, facere porro tempore dolores asperiores vel nostrum, ipsam qui repellat!</p>
+                        <button class="btn blog-post__button">Learn More</button>
+                    </article>
+                </div>
+                <div class="blog-post">
+                    <aside class="blog-post__aside">
+                        <img src="images/img-1.jpg" alt="blog-image-2">
+                    </aside>
+                    <article class="blog-post__content">
+                        <h2 class="blog-post__heading">Blog 3</h2>
+                        <h3 class="blog-post__sub-heading">This is subtitle here</h3>
+                        <p class="blog-post__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero facilis distinctio a? Iste placeat voluptatum optio minus vero totam earum, facere porro tempore dolores asperiores vel nostrum, ipsam qui repellat!</p>
+                        <button class="btn blog-post__button">Learn More</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- blog post section end here  -->
+
+        <!-- contact section start  -->
+        <section id="contact-section" class="section-center">
+            <h2 class="section-heading text-white">Contact Me</h2>
+            <form action="#">
+            <div class="form-control">
+                <label for="name">Name</label>
+                <input type="text" id="name" autocomplete="name" required>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" id="email" autocomplete="email" required>
+            </div>
+            <div class="form-control">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+             <div class="form-control form-btn-field">
+                <button class="btn contact__btn">Submit</button>
+            </div>
+            </form>
+        </section>
+        <!-- contact section end  -->
+    </main>
+    <footer class="footer">
+        <p class="copyright__text">
+            Copyright &copy; by Sunam Ali . All rights reserved
+        </p>
+        <nav class="footer_nav">
+            <a href="index.html"
+               class="footer__link"
+               >
+               <i class="fa fa-home footer__icon"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61561062465888"
+               target="_blank"
+               class="footer__link"
+               >
+               <i class="fab fa-facebook footer__icon"></i>
+            </a>
+             <a href="https://www.instagram.com/sunam_ali_360/?igsh=YzljYTk1ODg3Zg%3D%3D"
+               target="_blank"
+               class="footer__link"
+               >
+               <i class="fab fa-instagram footer__icon"></i>
+            </a>
+             <a href="https://github.com/sunam-ali"
+               target="_blank"
+               class="footer__link"
+               >
+               <i class="fab fa-github footer__icon"></i>
+            </a>
+        </nav>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
