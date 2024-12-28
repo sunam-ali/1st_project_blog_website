@@ -14,13 +14,13 @@
     font-weight: 400;
 }
 html{
-    background-color: #fafafa;
+    background-color: #ffff;
     scroll-behavior: smooth;
     font-size: 62.5%;
     font-family: "Roboto", sans-serif;
 }
 body{
-    background-color: #ffff;
+    background-color: #fafafa;
     width: 100rem;
     max-width: 100%;
     margin: auto;
@@ -115,7 +115,7 @@ nav ul li:hover{
 .banner__img{
     width: 55rem;
     height: 60rem;
-    border: 0.2rem solid rgb(38, 40, 41);
+    box-shadow: 0.2rem 0.2rem 0.2rem rgb(15, 2, 2);
     border-radius: 5px;
 }
 .banner article{
@@ -127,12 +127,13 @@ nav ul li:hover{
     padding: 1rem;
     background-color: black;
     color: white;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
     font-size: 4rem;
-    border-radius: 1px;
+    border-radius: 5px;
 }
 .banner__description{
     font-size: 1.8rem;
+    width: 90%;
 }
 .banner aside{
     flex-basis: 50%;
@@ -385,6 +386,13 @@ textarea{
     .hidden{
         display: none;
     }
+    .top-bar{
+        height: auto;
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     .banner{
         min-height: auto;
     }
@@ -418,7 +426,7 @@ textarea{
         width: 90%;
     }
     form{
-        width: 90%;
+        width: 100%;
     }
     .form-control{
         flex-direction: column;
@@ -437,7 +445,7 @@ textarea{
     }
     #menu_icon{
         display: block;
-        margin-bottom: 2rem;
+        margin-top: 2rem;
     }
 }
 /* responsiveness end here  */
