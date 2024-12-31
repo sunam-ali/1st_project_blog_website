@@ -1,1 +1,1 @@
-# [Click to view site](https://blogwebsite-weld.vercel.app/)
+# [Click to view](https://blogwebsite-weld.vercel.app/)
